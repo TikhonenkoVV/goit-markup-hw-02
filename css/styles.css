@@ -212,7 +212,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-footer {
+.footer {
     background-color: var(--alt-bgr-color);
     color: var(--white-color);
 }
