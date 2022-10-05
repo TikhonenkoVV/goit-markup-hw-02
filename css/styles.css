@@ -75,8 +75,8 @@ body {
     color: var(--titlecolor);
 }
 
-.navigation-list-item > .link:hover,
-.navigation-list-item > .link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
     color: var(--designcolor);
 }
 
@@ -87,8 +87,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.contacts-list-item > .link:hover,
-.contacts-list-item > .link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--designcolor);
 }
 
@@ -117,8 +117,9 @@ body {
     background-color: var(--designcolor);
     font-weight: 700;
     font-size: 16px;
-    color: var(--white-color);
+    line-height: 1.88;
     letter-spacing: 0.06em;
+    color: var(--white-color);
     cursor: pointer;
 }
 
@@ -132,7 +133,6 @@ body {
 }
 
 .advantage-list-item-description {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -173,7 +173,6 @@ body {
 }
 
 .team-list-item-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -206,7 +205,6 @@ body {
 }
 
 .project-list-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -222,7 +220,6 @@ body {
 }
 
 .address-list-item {
-    font-weight: 400;
     font-style: normal;
     font-size: 14px;
     line-height: 1.86;
@@ -234,7 +231,7 @@ body {
     color: rgba(255, 255, 255, 1);
 }
 
-.address-list-item > .link:hover,
-.address-list-item > .link:focus {
+.address-link:hover,
+.address-link:focus {
     color: var(--designcolor);
 }
